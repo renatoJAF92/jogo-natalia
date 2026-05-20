@@ -1,0 +1,13 @@
+# .gitignore — Godot 4 project
+
+# Cache da engine (regenerado ao abrir o projeto)
+.godot/
+
+# Traduções compiladas (geradas automaticamente)
+*.translation
+
+# Artifacts de export (gerados pelo CI/CD ou godot --export-release)
+export/
+
+# macOS
+.DS_Store
