@@ -38,7 +38,12 @@
 2. Git LFS está ativo e arquivos `.png`, `.wav`, `.ogg` são rastreados via LFS (confirmado com `git lfs ls-files`).
 3. Estrutura de pastas (`scenes/`, `assets/sprites/`, `assets/audio/`, `scripts/`, `.planning/`) está criada e commitada.
 4. Renderer Compatibility está definido em Project Settings e persiste após reabrir o projeto.
-**Plans:** TBD
+**Plans:** 4 planos
+Plans:
+- [ ] 00-001-git-lfs-scaffold-PLAN.md — Git LFS + estrutura de pastas + .gitignore + .gitattributes + serve.py
+- [ ] 00-002-godot-project-PLAN.md — Instalação Godot 4.4.x + project.godot com Compatibility renderer + cena main.tscn
+- [ ] 00-003-export-presets-PLAN.md — Export presets (Web/Windows/macOS) + teste de export local no navegador
+- [ ] 00-004-github-actions-PLAN.md — GitHub Actions CI/CD pipeline com export automático e deploy itch.io
 
 ### Phase 1: Game Feel
 **Goal:** A protagonista Natália se move com precisão e satisfação — coyote time, jump buffer, dash, knockback, animações e juice visual funcionando — antes de qualquer fase ser construída.
@@ -208,7 +213,7 @@
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 0. Fundação | 0/0 | Not started | - |
+| 0. Fundação | 0/4 | In progress | - |
 | 1. Game Feel | 0/0 | Not started | - |
 | 2. Infraestrutura | 0/0 | Not started | - |
 | 3. Mundo 1 — Osasco | 0/0 | Not started | - |
