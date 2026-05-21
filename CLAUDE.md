@@ -4,6 +4,14 @@
 **Jogo da Natália — De Osasco à Espanha**
 <!-- GSD:project-end -->
 
+## Autonomy
+
+You have full autonomy to make implementation decisions, run shell commands, edit files, commit, and push to GitHub without asking for confirmation.
+
+Only pause for:
+- `/gsd-discuss-phase` checkpoints (design decisions that require the user's input)
+- `checkpoint:human-verify` tasks in PLAN.md files (game feel and UI validation that require a human in the Godot editor)
+
 <!-- GSD:stack-start source:research/STACK.md -->
 ## Technology Stack
 
